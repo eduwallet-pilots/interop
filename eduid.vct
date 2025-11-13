@@ -1,0 +1,306 @@
+{
+  "name": "eduID",
+  "description": "eduID indicates affiliation with an institute of higher education or research",
+  "display": [
+    {
+      "lang": "en",
+      "name": "eduID",
+      "description": "eduID indicates affiliation with an institute of higher education or research",
+      "rendering": {
+        "simple": {
+          "text_color": "#ffffff",
+          "background_color": "#8f0f12",
+          "logo": {
+            "uri": "https://as.dev.eduid.nl/static/images/eduid_credential_logo.png"
+          }
+        }
+      }
+    },
+    {
+      "lang": "nl-NL",
+      "name": "eduID",
+      "description": "eduID geeft een relatie aan met een hoger onderwijsinstelling of onderzoeksinstituut",
+      "rendering": {
+        "simple": {
+          "text_color": "#ffffff",
+          "background_color": "#8f0f12",
+          "logo": {
+            "uri": "https://as.dev.eduid.nl/static/images/eduid_credential_logo.png"
+          }
+        }
+      }
+    }
+  ],
+  "claims": [
+    {
+      "path": [
+        "schac_home_organization"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "Organization",
+          "description": "Organization",
+          "lang": "en"
+        },
+        {
+          "name": "Instelling",
+          "description": "Instelling",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "name"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "Name",
+          "description": "Full name",
+          "lang": "en"
+        },
+        {
+          "name": "Naam",
+          "description": "Volledige naam",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "given_name"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "Given name",
+          "description": "Given name or first name",
+          "lang": "en"
+        },
+        {
+          "name": "Voornaam",
+          "description": "Voornaam",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "family_name"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "Family name",
+          "description": "Family name or surname",
+          "lang": "en"
+        },
+        {
+          "name": "Achternaam",
+          "description": "Achternaam met tussenvoegsels",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "email"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "E-mail",
+          "description": "E-mail address",
+          "lang": "en"
+        },
+        {
+          "name": "E-mail",
+          "description": "E-mail adres",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "eduperson_scoped_affiliation"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "Affiliation (scoped)",
+          "description": "Affiliation scoped to the home organization",
+          "lang": "en"
+        },
+        {
+          "name": "Betrekking (in relatie)",
+          "description": "Betrekking in relatie tot de instelling",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "eduperson_assurance"
+      ],
+      "sd": "never",
+      "display": [
+        {
+          "name": "Assurance",
+          "description": "Assurance level for receiving this credential",
+          "lang": "en"
+        },
+        {
+          "name": "Bevestiging",
+          "description": "Bevestigingsniveau voor het verkrijgen van dit credential",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_student"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsStudent",
+          "description": "Is the holder a student",
+          "lang": "en"
+        },
+        {
+          "name": "IsStudent",
+          "description": "Is de houder een student",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_faculty"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsFaculty",
+          "description": "Is the holder a faculty member",
+          "lang": "en"
+        },
+        {
+          "name": "IsFaculteitslid",
+          "description": "Is de houder een faculteitslid",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_member"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsMember",
+          "description": "Is the holder a member of the organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsLid",
+          "description": "Is de houder lid van de organisatie",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_staff"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsStaff",
+          "description": "Is the holder a staff member of the organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsStaf",
+          "description": "Is de houder een staflid van de organisatie",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_alum"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsAlumnus",
+          "description": "Is the holder an alumnus of the organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsAlumnus",
+          "description": "Is de houder een alumnus van de organisatie",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_affiliate"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsAffiliate",
+          "description": "Is the holder affiliated with the organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsVerbonden",
+          "description": "Is de houder verbonden met de organisatie",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_employee"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsEmployee",
+          "description": "Is the holder an employee of the organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsMedewerker",
+          "description": "Is de houder een medewerker van de organisatie",
+          "lang": "nl"
+        }
+      ]
+    },
+    {
+      "path": [
+        "is_library-walk-in"
+      ],
+      "sd": "allowed",
+      "display": [
+        {
+          "name": "IsLibraryWalkIn",
+          "description": "Is the holder a library-walk-in of this organisation",
+          "lang": "en"
+        },
+        {
+          "name": "IsBibliotheekBezoeker",
+          "description": "Is de houder een bezoeker van de bibliotheek van de organisatie",
+          "lang": "nl"
+        }
+      ]
+    }
+  ]
+}

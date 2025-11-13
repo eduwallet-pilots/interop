@@ -1,0 +1,54 @@
+{
+  "name": "entitlement",
+  "description": "entitlements indicate a set of rights to specific resources in the context of an institute of higher education or research",
+  "display": [
+    {
+      "lang": "en",
+      "name": "entitlement",
+      "description": "entitlements indicate a set of rights to specific resources in the context of an institute of higher education or research",
+      "rendering": {
+        "simple": {
+          "text_color": "#ffffff",
+          "background_color": "#8f0f12",
+          "logo": {
+            "uri": "https://as.dev.eduid.nl/static/images/eduid_credential_logo.png"
+          }
+        }
+      }
+    },
+    {
+      "lang": "nl-NL",
+      "name": "Recht",
+      "description": "rechten op een specifieke set resources in context van een hoger onderwijsinstelling of onderzoeksinstituut",
+      "rendering": {
+        "simple": {
+          "text_color": "#ffffff",
+          "background_color": "#8f0f12",
+          "logo": {
+            "uri": "https://as.dev.eduid.nl/static/images/eduid_credential_logo.png"
+          }
+        }
+      }
+    }
+  ],
+  "claims": [
+    {
+      "path": [
+        "entitlement"
+      ],
+      "sd": "mandatory",
+      "display": [
+        {
+          "name": "Entitlement",
+          "description": "Entitlement",
+          "lang": "en"
+        },
+        {
+          "name": "Recht",
+          "description": "Recht",
+          "lang": "nl"
+        }
+      ]
+    }
+  ]
+}
