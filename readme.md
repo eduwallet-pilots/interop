@@ -8,7 +8,7 @@ To be able to test, various resources are needed, depending on the test case.
 
 (all currently in test or development)
 
-* [eduID (dev)](https://issuer.dev.eduid.nl/) \- Issuer (DIIP v4 credential issuer for SD-JWT eduID credentials)  
+* [eduID (dev) Issuer](https://issuer.dev.eduid.nl/) \- Issuer (DIIP v4 credential issuer for SD-JWT eduID credentials)  
 * [eduID (test)](https://login.test.eduid.nl) \- SAML IdP and OIDC OP  
 * [mijn eduID (test)](https://mijn.test.eduid.nl/) \- Self service environment to allow users/tests to manage eduIDs
 
