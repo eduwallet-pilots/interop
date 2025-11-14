@@ -148,7 +148,7 @@ Issuer issues credential (example):
 
 * Signatures and proofs validate.
 
-* `"eduperson_assurance"` remains undisclosed.
+* `"eduperson_assurance"` is disclosed.
 
 ✅ **Pass:** Verifier accepts valid presentation, rejects excess or forbidden disclosures.
 
@@ -160,7 +160,7 @@ Issuer issues credential (example):
 
 **Steps**
 
-1. Issuer revokes a credential (via DIIP testbed API or `statusList2021` endpoint).
+1. Issuer revokes a credential (via DIIP testbed API or `IETF token list` endpoint).
 
 2. Wallet attempts to present revoked VC.
 
@@ -193,7 +193,9 @@ Issuer issues credential (example):
 
 * Wallet discloses only claims marked `"sd":"allowed"`.
 
-* `"eduperson_assurance"` and `"eduperson_scoped_affiliation"` withheld unless explicitly requested and allowed.
+* `"eduperson_scoped_affiliation"` withheld unless explicitly requested and allowed.
+
+* `"eduperson_assurance"` disclosed
 
 ✅ **Pass:** Correct selective disclosure per VCT rules.
 
@@ -260,13 +262,13 @@ Issuer issues credential (example):
 
 2. Wallet evaluates VC.
 
-3. Since `eduperson_assurance` is `"sd": "never"`, Wallet does **not** disclose raw value, but can return a *verified boolean* (`true`) if allowed by profile.
+3. Since `eduperson_assurance` is `"sd": "never"`, Wallet may return value if available
 
-4. Verifier accepts boolean assertion if signed by Wallet and proof derived from Issuer signature.
+4. Verifier accepts assertion if signed by Wallet and proof derived from Issuer signature.
 
 **Expected**
 
-* Wallet either returns non-disclosing proof of compliance or explicit denial (`not_disclosable`).
+* Wallet either returns proof of compliance or explicit denial (`not_disclosable`).
 
 * If `true` response allowed, proof chain verifies.
 
