@@ -155,7 +155,7 @@ Issuer issues credential payload:
 
 **Steps**
 
-1. Issuer revokes a credential using DIIP status endpoint.
+1. Issuer revokes a credential using IETF token and status endpoint.
 
 2. Wallet attempts to present revoked VC.
 
