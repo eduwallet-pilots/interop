@@ -33,5 +33,5 @@ To be able to test, various resources are needed, depending on the test case.
 * Testbed: https://testbed.dev.oidf.lab.surfconext.nl/
 * TA: https://testbed.dev.oidf.lab.surfconext.nl
 * Leafs: https://ta.dev.oidf.lab.surfconext.nl/list
-* Leaf example: 
-** eduID: https://leafs.dev.oidf.lab.surfconext.nl/leafs/a6261dc05c50195a641d635a8ac218dba4863b8d/
+* Leaf example:
+  * **eduID**: https://leafs.dev.oidf.lab.surfconext.nl/leafs/a6261dc05c50195a641d635a8ac218dba4863b8d/
