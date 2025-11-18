@@ -15,6 +15,12 @@ To be able to test, various resources are needed, depending on the test case.
 * [eduWallet Pilot portal](https://portal.dev.eduwallet.nl) \- Pilot participant enrollment portal  
 * SURFconext [invite](https://invite.test.surfconext.nl/home) \- Pilot participant invitation portal
 
+* Edubadges \- platform for digital certificates, including microcredentials, for the Dutch education sector using OpenBadges. Has three stages:
+  * [Development](https://edubadges.dev.sdp.surf.nl/) \- Unstable, behind EduVPN.
+  * [Playground](https://edubadges.playground.sdp.surf.nl/) - Stable, not fully functional.
+  * [Demo](https://demo.edubadges.nl/) - Stable, production ready, only issuance.
+* [OpenBadge credential examples](https://www.educredentials.eu/obv3-examples/) \- Structure, JSON, documentation and issuance of _EduCredentials_, OpenBadge version 3 implementation with our business-logic
+
 # Pilot Specific resources
 
 # Credentials
