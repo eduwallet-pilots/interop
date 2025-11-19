@@ -33,7 +33,7 @@ To be able to test, various resources are needed, depending on the test case.
 
 * **eduID** [https://github.com/eduwallet-pilots/interop/blob/main/testcases/eduID-testcases.md](https://github.com/eduwallet-pilots/interop/blob/main/testcases/eduID-testcases.md)  
 * **entitlement** [https://github.com/eduwallet-pilots/interop/blob/main/testcases/entitlement-testcases.md](https://github.com/eduwallet-pilots/interop/blob/main/testcases/entitlement-testcases.md)
-
+* **EduBadges** [https://github.com/eduwallet-pilots/interop/blob/main/testcases/openBadge-testcases.md](https://github.com/eduwallet-pilots/interop/blob/main/testcases/openBadge-testcases.md)
 
 # OpenID Federation Testbed
 * Testbed: https://testbed.dev.oidf.lab.surfconext.nl/
